@@ -1,0 +1,29 @@
+{
+  "config": {
+    "target_sr": 22050,
+    "duration": 3.0,
+    "use_spectrogram": true,
+    "test_size": 0.2,
+    "val_size": 0.1,
+    "epochs": 100,
+    "batch_size": 32,
+    "learning_rate": 0.001,
+    "model_version": "v2",
+    "download_data": true
+  },
+  "results": {
+    "test_accuracy": 0.24832214415073395,
+    "test_precision": 0.24113474786281586,
+    "test_recall": 0.2281879186630249,
+    "test_f1_score": 0.23448275135335225
+  },
+  "model_info": {
+    "input_shape": [
+      128,
+      130,
+      1
+    ],
+    "total_parameters": 890887,
+    "model_version": "v2"
+  }
+}

@@ -1,0 +1,17 @@
+# Python
+__pycache__/
+*.pyc
+venv/
+.env
+
+# ML / Audio
+*.wav
+*.mp3
+*.pt
+*.h5
+*.pkl
+*.npy
+
+# Data
+data/
+dataset/

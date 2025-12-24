@@ -1,0 +1,19 @@
+# Streamlit Baby Cry Detection App Requirements
+
+# Web Framework
+streamlit>=1.28.0
+
+# Machine Learning
+tensorflow>=2.10.0
+numpy>=1.21.0
+
+# Audio Processing
+librosa>=0.9.0
+soundfile>=0.10.0
+
+# Visualization
+plotly>=5.0.0
+matplotlib>=3.5.0
+
+# Utilities
+python-dateutil>=2.8.0

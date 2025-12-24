@@ -1,0 +1,39 @@
+{
+  "config": {
+    "target_sr": 22050,
+    "duration": 3.0,
+    "use_spectrogram": true,
+    "balance_classes": true,
+    "test_size": 0.15,
+    "val_size": 0.15,
+    "epochs": 100,
+    "batch_size": 25,
+    "learning_rate": 0.0001,
+    "patience": 20,
+    "dropout_rate": 0.5
+  },
+  "results": {
+    "test_accuracy": 0.30000001192092896,
+    "test_loss": 1.7898008823394775
+  },
+  "dataset": {
+    "categories": {
+      "belly_pain": 0,
+      "burping": 1,
+      "discomfort": 2,
+      "hungry": 3,
+      "tired": 4
+    },
+    "total_samples": 730,
+    "train_samples": 510,
+    "val_samples": 110,
+    "test_samples": 110
+  },
+  "class_distribution": {
+    "belly_pain": 146,
+    "burping": 146,
+    "discomfort": 146,
+    "hungry": 146,
+    "tired": 146
+  }
+}
